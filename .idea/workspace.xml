@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d48c46-e73b-4414-bfbd-de6fdf83fab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/DataProviderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginDataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/BrowserLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/DataProviderDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/DataProviderDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/shank/IdeaProjects/seleniumTesting",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -47,16 +47,38 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shank\IdeaProjects\seleniumTesting" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderDemoTest">
+  <component name="RunManager" selected="TestNG.C:/Users/shank/IdeaProjects/seleniumTesting/testng2.xml">
     <configuration name="C:/Users/shank/IdeaProjects/seleniumTesting/testng1.xml" type="TestNG" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng1.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/shank/IdeaProjects/seleniumTesting/testng2.xml" type="TestNG" nameIsGenerated="true">
+      <module name="seleniumTesting" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />

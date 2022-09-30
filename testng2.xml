@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reading browser variable from testng xml">
+    <test name="Reading browser variable from testng xml">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ui.BrowserLoginTest"/>
+        </classes>
+    </test>
+</suite>
