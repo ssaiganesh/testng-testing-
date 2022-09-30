@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d48c46-e73b-4414-bfbd-de6fdf83fab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mastertestng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rssg/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/CommonDataSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/AfterBeforeSuiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/DataProviderDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/GroupsDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/SkipDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/VerifyTitleAndTextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/VerifyTitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/DataProviderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginDataProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/DataProviderDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/DataProviderDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -66,7 +51,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderDemoTest.test1">
+  <component name="RunManager" selected="TestNG.DataProviderDemoTest">
     <configuration name="C:/Users/shank/IdeaProjects/seleniumTesting/testng1.xml" type="TestNG" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <shortenClasspath name="NONE" />
@@ -175,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginDataProviderTest.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <extension name="coverage">
         <pattern>
@@ -184,8 +169,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.SkipDemoTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ui.LoginDataProviderTest" />
+      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -219,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderDemoTest.test1" />
         <item itemvalue="TestNG.DataProviderDemoTest" />
+        <item itemvalue="TestNG.DataProviderDemoTest.test1" />
         <item itemvalue="TestNG.DataProviderDemoTest.test" />
+        <item itemvalue="TestNG.LoginDataProviderTest.LoginTest" />
         <item itemvalue="TestNG.GroupsDemoTest" />
-        <item itemvalue="TestNG.SkipDemoTest" />
       </list>
     </recent_temporary>
   </component>
