@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Setup and Teardown">
+    <test  name="Test Before Suit After Suite">
+        <classes>
+            <class name="ui.AfterBeforeSuiteTest">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                    <include name="Test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

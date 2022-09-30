@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/shank/IdeaProjects/seleniumTesting/src/test/java/ui/GroupsDemoTest.java"><classes><class name="ui.GroupsDemoTest"><methods><include name="Test1"/><include name="Test2"/><include name="Test4"/></methods></class></classes></test></suite>

@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/shank/IdeaProjects/seleniumTesting/src/test/java/ui/VerifyTitleAndTextTest.java"><classes><class name="ui.VerifyTitleAndTextTest"><methods><include name="titleAndTextTest"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/shank/IdeaProjects/seleniumTesting/src/test/java/ui/GroupsDemoTest.java">
+        <groups>
+            <run>
+                <include name="regression"/>
+<!--                This only runs test cases that are under regression group in the below-mentioned classes. NOT ALL Tests in below-mentioned classes-->
+            </run>
+        </groups>
+        <classes>
+            <class name="ui.GroupsDemoTest"/>
+            <class name="ui.VerifyTitleAndTextTest"/>
+        </classes>
+    </test>
+</suite>
