@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/shank/IdeaProjects/seleniumTesting/src/test/java/ui/VerifyTitleAndTextTest.java"><classes><class name="ui.VerifyTitleAndTextTest"><methods><include name="titleAndTextTest"/></methods></class></classes></test></suite>
