@@ -1,5 +1,6 @@
 package ui;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 // notice that test cases without priority is run first before priority = 1 and 2. So better to set priority for everything or for nothing.
@@ -38,6 +39,7 @@ public class GroupsDemoTest {
     @Test (priority = 2, groups="regression")
     public void Test2() {
         System.out.println("Test2 executed.");
+//        Assert.assertEquals(1, 3); // to test on Test Dail
     }
 
     @Test (groups={"regression", "bvt"})

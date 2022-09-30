@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/shank/IdeaProjects/seleniumTesting/src/test/java/ui/GroupsDemoTest.java">
-        <groups>
-            <run>
-                <include name="regression"/>
-<!--                This only runs test cases that are under regression group in the below-mentioned classes. NOT ALL Tests in below-mentioned classes-->
-            </run>
-        </groups>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Test Suite">
+    <listeners>
+        <listener class-name="common.Listeners"/>
+    </listeners>
+    <test name="Listener Testing">
         <classes>
-            <class name="ui.GroupsDemoTest"/>
-            <class name="ui.VerifyTitleAndTextTest"/>
+            <class name="ui.ListenerDemoTest"/>
         </classes>
     </test>
 </suite>
