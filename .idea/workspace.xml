@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d48c46-e73b-4414-bfbd-de6fdf83fab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ListenerDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/testUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/common/RetryListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/GroupsDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/GroupsDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/ListenerDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ListenerDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +56,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/shank/IdeaProjects/seleniumTesting/testng.xml">
+  <component name="RunManager" selected="TestNG.ListenerDemoTest">
     <configuration name="C:/Users/shank/IdeaProjects/seleniumTesting/testng1.xml" type="TestNG" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <shortenClasspath name="NONE" />
@@ -170,6 +167,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListenerDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.ListenerDemoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListenerDemoTest.launchApp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <extension name="coverage">
@@ -181,24 +195,6 @@
       <option name="PACKAGE_NAME" value="ui" />
       <option name="MAIN_CLASS_NAME" value="ui.ListenerDemoTest" />
       <option name="METHOD_NAME" value="launchApp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginDataProviderTest.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.LoginDataProviderTest" />
-      <option name="METHOD_NAME" value="LoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -233,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ListenerDemoTest" />
         <item itemvalue="TestNG.ListenerDemoTest.launchApp" />
         <item itemvalue="TestNG.DataProviderDemoTest" />
         <item itemvalue="TestNG.DataProviderDemoTest.test1" />
         <item itemvalue="TestNG.DataProviderDemoTest.test" />
-        <item itemvalue="TestNG.LoginDataProviderTest.LoginTest" />
       </list>
     </recent_temporary>
   </component>
