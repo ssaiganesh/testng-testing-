@@ -11,12 +11,14 @@ import java.util.Date;
 
 
 public class testUtils extends BaseTest {
-    public void getScreenshot() throws IOException {
+    public String getScreenshot() throws IOException {
 
         Date currentDate = new Date();
         String screenshotfilename = currentDate.toString().replace(" ","-").replace(":","-");
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshotFile, new File(".//screenshot//" + screenshotfilename + ".png"));
+        
+        return (screenshotfilename + ".png");
     }
 
 }

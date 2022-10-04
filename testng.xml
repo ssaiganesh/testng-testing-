@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Listener Test Suite">
+<suite name="Resports Screenshot Test Suite">
     <listeners>
-        <listener class-name="common.RetryListener"/>
+        <listener class-name="common.Listeners"/>
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter"></listener> -->
     </listeners>
-    <test name="Listener Testing">
+    <test name="Reports screenshot Testing">
         <classes>
-            <class name="ui.ListenerDemoTest"/>
+            <class name="ui.ReportsTest"/>
         </classes>
     </test>
 </suite>

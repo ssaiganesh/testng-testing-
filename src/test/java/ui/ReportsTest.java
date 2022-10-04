@@ -1,13 +1,18 @@
 package ui;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class ReportsTest {
+import common.BaseTest;
+
+public class ReportsTest extends BaseTest {
 
     @Test
     public void reportTest1() {
         System.out.println("This is Test 1.");
+        driver.get("https://salesforce.com");
+        Assert.fail();
     }
 
     @Test

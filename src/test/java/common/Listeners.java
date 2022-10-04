@@ -15,7 +15,7 @@ public class Listeners extends testUtils implements ITestListener{
 
     public void onTestStart(ITestResult result) {
         Reporter.log("Test Name is - " + result.getName());
-        System.out.println("Test started.");
+        System.out.println("Test started. ");
 
     }
 
@@ -24,15 +24,18 @@ public class Listeners extends testUtils implements ITestListener{
     }
 
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test failed - screenshot captured");
-
+        Reporter.log("Test failed - screenshot captured. ");
+        String screenshotfilename = null;
         try {
-            getScreenshot();
+        	screenshotfilename = (String) getScreenshot();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-//        Reporter.log("<a href=\'C:\\Users\\shank\\eclipse-workspace\\reportLogsForTest\\screenshot\">Test Results</a>");
+        
+        System.setProperty("org.uncommons.reportng.escape-output", "false"); // this is to view the screenshot below. HTML characters will be recognised
+        // hard-coded screenshot here
+        
+		Reporter.log("<a href=\"C:\\Users\\shank\\eclipse-workspace\\seleniumTesting\\screenshot\\"+ screenshotfilename +"\""+">Test Results</a>");
     }
 
     public void onTestSkipped(ITestResult result) {

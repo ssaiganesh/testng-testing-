@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Name is - reportTest1]]>
+    </line>
+    <line>
+      <![CDATA[Test failed - screenshot captured. ]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-14-26-SGT-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Name is - reportTest2]]>
+    </line>
+    <line>
+      <![CDATA[This is Test 2.]]>
+    </line>
+    <line>
+      <![CDATA[Status of Test is - 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Name is - reportTest3]]>
+    </line>
+    <line>
+      <![CDATA[This is Test 3.]]>
+    </line>
+    <line>
+      <![CDATA[Status of Test is - 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Name is - reportTest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of Test is - 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-04T19:14:24 SGT" name="Resports Screenshot Test Suite" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2347">
+    <groups>
+    </groups>
+    <test started-at="2022-10-04T19:14:24 SGT" name="Reports screenshot Testing" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2347">
+      <class name="ui.ReportsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:21 SGT" name="launchBrowser" finished-at="2022-10-04T19:14:24 SGT" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="reportTest1()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:24 SGT" name="reportTest1" finished-at="2022-10-04T19:14:26 SGT" duration-ms="1813" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.fail(Assert.java:102)
+at ui.ReportsTest.reportTest1(ReportsTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Name is - reportTest1]]>
+            </line>
+            <line>
+              <![CDATA[Test failed - screenshot captured. ]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-14-26-SGT-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest1 -->
+        <test-method signature="reportTest2()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest2" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Name is - reportTest2]]>
+            </line>
+            <line>
+              <![CDATA[This is Test 2.]]>
+            </line>
+            <line>
+              <![CDATA[Status of Test is - 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest2 -->
+        <test-method signature="reportTest3()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest3" finished-at="2022-10-04T19:14:26 SGT" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Name is - reportTest3]]>
+            </line>
+            <line>
+              <![CDATA[This is Test 3.]]>
+            </line>
+            <line>
+              <![CDATA[Status of Test is - 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest3 -->
+        <test-method signature="reportTest4()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest4" finished-at="2022-10-04T19:14:26 SGT" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Name is - reportTest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of Test is - 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reportTest4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="closeBrowser" finished-at="2022-10-04T19:14:27 SGT" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ui.ReportsTest -->
+    </test> <!-- Reports screenshot Testing -->
+  </suite> <!-- Resports Screenshot Test Suite -->
+</testng-results>
