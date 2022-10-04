@@ -20,7 +20,7 @@ public class Listeners extends testUtils implements ITestListener{
     }
 
     public void onTestSuccess(ITestResult result) {
-        Reporter.log("Status of Test is - " + result.getStatus());
+        Reporter.log("Status of Test is " + convertStatus(result.getStatus()));
     }
 
     public void onTestFailure(ITestResult result) {

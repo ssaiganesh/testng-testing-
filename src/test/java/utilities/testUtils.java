@@ -20,5 +20,25 @@ public class testUtils extends BaseTest {
         
         return (screenshotfilename + ".png");
     }
+    
+    public String convertStatus(int n) {
+    	
+    	switch(n){
+    	case 1:
+    		return "Success";
+    	case 2:
+    		return "Failure";
+    	case 3:
+    		return "Skip";
+    	case 4:
+    		return "Sucess Percentage Failure";
+    	case 16:
+    		return "Started";
+    	default:
+    		return "Created";
+    		
+    	}
+    	
+    }
 
 }
