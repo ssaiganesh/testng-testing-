@@ -33,29 +33,23 @@ public class Listeners extends testUtils implements ITestListener{
         }
         
         System.setProperty("org.uncommons.reportng.escape-output", "false"); // this is to view the screenshot below. HTML characters will be recognised
-        // hard-coded screenshot here
         
 		Reporter.log("<a href=\"C:\\Users\\shank\\eclipse-workspace\\seleniumTesting\\screenshot\\"+ screenshotfilename +"\">Test Results</a>");
     }
 
     public void onTestSkipped(ITestResult result) {
-        // TODO Auto-generated method stub
     }
 
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        // TODO Auto-generated method stub
     }
 
     public void onTestFailedWithTimeout(ITestResult result) {
-        // TODO Auto-generated method stub
     }
 
     public void onStart(ITestContext context) {
-        // TODO Auto-generated method stub
     }
 
     public void onFinish(ITestContext context) {
-        // TODO Auto-generated method stub
     }
 
 }
