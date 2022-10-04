@@ -8,7 +8,7 @@
       <![CDATA[Test failed - screenshot captured. ]]>
     </line>
     <line>
-      <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-14-26-SGT-2022.png">Test Results</a>]]>
+      <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-29-02-SGT-2022.png">Test Results</a>]]>
     </line>
     <line>
       <![CDATA[Test Name is - reportTest2]]>
@@ -35,16 +35,16 @@
       <![CDATA[Status of Test is - 1]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-10-04T19:14:24 SGT" name="Resports Screenshot Test Suite" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2347">
+  <suite started-at="2022-10-04T19:29:00 SGT" name="Resports Screenshot Test Suite" finished-at="2022-10-04T19:29:03 SGT" duration-ms="2026">
     <groups>
     </groups>
-    <test started-at="2022-10-04T19:14:24 SGT" name="Reports screenshot Testing" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2347">
+    <test started-at="2022-10-04T19:29:00 SGT" name="Reports screenshot Testing" finished-at="2022-10-04T19:29:03 SGT" duration-ms="2026">
       <class name="ui.ReportsTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:21 SGT" name="launchBrowser" finished-at="2022-10-04T19:14:24 SGT" duration-ms="3205" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:28:58 SGT" name="launchBrowser" finished-at="2022-10-04T19:29:00 SGT" duration-ms="2613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="reportTest1()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:24 SGT" name="reportTest1" finished-at="2022-10-04T19:14:26 SGT" duration-ms="1813" status="FAIL">
+        <test-method signature="reportTest1()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:29:01 SGT" name="reportTest1" finished-at="2022-10-04T19:29:02 SGT" duration-ms="1622" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -91,11 +91,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Test failed - screenshot captured. ]]>
             </line>
             <line>
-              <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-14-26-SGT-2022.png">Test Results</a>]]>
+              <![CDATA[<a href="C:\Users\shank\eclipse-workspace\seleniumTesting\screenshot\Tue-Oct-04-19-29-02-SGT-2022.png">Test Results</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- reportTest1 -->
-        <test-method signature="reportTest2()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest2" finished-at="2022-10-04T19:14:26 SGT" duration-ms="2" status="PASS">
+        <test-method signature="reportTest2()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:29:02 SGT" name="reportTest2" finished-at="2022-10-04T19:29:03 SGT" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Name is - reportTest2]]>
@@ -108,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- reportTest2 -->
-        <test-method signature="reportTest3()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest3" finished-at="2022-10-04T19:14:26 SGT" duration-ms="3" status="PASS">
+        <test-method signature="reportTest3()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:29:03 SGT" name="reportTest3" finished-at="2022-10-04T19:29:03 SGT" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Name is - reportTest3]]>
@@ -121,7 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- reportTest3 -->
-        <test-method signature="reportTest4()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="reportTest4" finished-at="2022-10-04T19:14:26 SGT" duration-ms="3" status="PASS">
+        <test-method signature="reportTest4()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:29:03 SGT" name="reportTest4" finished-at="2022-10-04T19:29:03 SGT" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Name is - reportTest4]]>
@@ -131,7 +131,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- reportTest4 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ui.ReportsTest@60d8c9b7]" started-at="2022-10-04T19:14:26 SGT" name="closeBrowser" finished-at="2022-10-04T19:14:27 SGT" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ui.ReportsTest@1bd4fdd]" started-at="2022-10-04T19:29:03 SGT" name="closeBrowser" finished-at="2022-10-04T19:29:03 SGT" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

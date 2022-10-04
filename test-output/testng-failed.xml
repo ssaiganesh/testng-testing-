@@ -3,6 +3,7 @@
 <suite name="Failed suite [Resports Screenshot Test Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="common.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
   <test thread-count="5" name="Reports screenshot Testing(failed)">
     <classes>
