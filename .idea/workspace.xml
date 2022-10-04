@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9d48c46-e73b-4414-bfbd-de6fdf83fab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/common/RetryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ReportsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/ListenerDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ListenerDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/Listeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="ui" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ListenerDemoTest">
+  <component name="RunManager" selected="TestNG.ReportsTest">
     <configuration name="C:/Users/shank/IdeaProjects/seleniumTesting/testng1.xml" type="TestNG" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <shortenClasspath name="NONE" />
@@ -131,24 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviderDemoTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ui" />
-      <option name="MAIN_CLASS_NAME" value="ui.DataProviderDemoTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataProviderDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <extension name="coverage">
@@ -202,6 +182,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReportsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.ReportsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bvt" type="TestNG" nameIsGenerated="true">
       <module name="seleniumTesting" />
       <shortenClasspath name="NONE" />
@@ -229,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReportsTest" />
         <item itemvalue="TestNG.ListenerDemoTest" />
         <item itemvalue="TestNG.ListenerDemoTest.launchApp" />
         <item itemvalue="TestNG.DataProviderDemoTest" />
         <item itemvalue="TestNG.DataProviderDemoTest.test1" />
-        <item itemvalue="TestNG.DataProviderDemoTest.test" />
       </list>
     </recent_temporary>
   </component>
