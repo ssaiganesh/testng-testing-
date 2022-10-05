@@ -17,8 +17,8 @@ public class testUtils extends BaseTest {
         String screenshotfilename = currentDate.toString().replace(" ","-").replace(":","-");
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshotFile, new File(".//screenshot//" + screenshotfilename + ".png"));
-        
-        return (screenshotfilename + ".png");
+        String workingDir = System.getProperty("user.dir");
+        return (workingDir + "\\screenshot\\" + screenshotfilename + ".png");
     }
     
     public String convertStatus(int n) {
